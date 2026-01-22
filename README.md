@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SanchTechInc Website
 
-## Getting Started
+Official company website for **SanchTechInc**, serving as the central hub for all products and applications developed under the SanchTechInc brand.
 
-First, run the development server:
+Live site:  
+https://sanchtechinc-site.vercel.app
+
+---
+
+## Overview
+
+This repository contains the source code for the SanchTechInc company website.  
+The site provides:
+
+- Company overview and mission
+- Product listings and product detail pages
+- Centralized contact information
+- A foundation for future legal and compliance pages
+
+The site is intentionally lightweight and static, designed to be fast, maintainable, and easy to evolve as products mature.
+
+---
+
+## Products Featured
+
+- **Find My Artist** – Platform for connecting artists and collaborators  
+- **Find My Stylist** – Booking and availability management for professional stylists  
+- **AI Document Scanner** – AI-powered document scanning and summarization tool  
+
+Each product has its own dedicated page and links back to this company site.
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
+- **Architecture:** Static-first, no backend or database
+
+---
+
+## Local Development
+
+To run the site locally:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deployment
 
-## Learn More
+This project is deployed using Vercel.
+Every push to the main branch triggers an automatic production deployment.
 
-To learn more about Next.js, take a look at the following resources:
+Status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Version: v1
+State: Live and active
+Planned additions:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Custom domain
 
-## Deploy on Vercel
+Legal pages (Privacy Policy, Terms of Service)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contact email migration to company domain
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Author
+
+SanchTechInc
